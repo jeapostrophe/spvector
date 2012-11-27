@@ -1,7 +1,7 @@
-#lang scheme
-(require scheme/package
+#lang racket/base
+(require racket/package
          tests/eli-tester
-         "main.ss")
+         data/spvector)
 
 (package-begin
  (define v1 (make-spvector #f #f #f))

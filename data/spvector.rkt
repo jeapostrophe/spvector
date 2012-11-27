@@ -1,4 +1,6 @@
-#lang scheme
+#lang racket/base
+(require racket/match
+         racket/contract)
 #|
 A semi-persistent vector is like an imperative vector, except old versions can be read.
 
